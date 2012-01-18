@@ -4,6 +4,7 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.10"
 
+
 ; Profiles
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
