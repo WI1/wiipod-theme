@@ -4,7 +4,6 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.10"
 
-
 ; Profiles
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
@@ -22,19 +21,29 @@ projects[cck][download][url] = ""
 projects[cck][type] = "module"
 projects[cck][version] = "2.x-dev"
 
-projects[ckeditor][version] = "1.6"
-
 projects[devel][version] = "1.2"
 
 projects[entity][version] = "1.0-rc1"
 
+projects[features][version] = "1.0-beta6"
+
 projects[libraries][version] = "1.0"
+
+projects[masquerade][version] = "1.0-rc4"
 
 projects[mollom][version] = "1.1"
 
+projects[node_export][version] = "3.x-dev"
+
 projects[og][version] = "1.3"
 
+projects[panels][version] = "3.0"
+
+projects[uuid][version] = "1.0-alpha2"
+
 projects[views][version] = "3.1"
+
+projects[wysiwyg][version] = "2.1"
 
 ; Themes
 projects[adaptivetheme][version] = "2.1"
@@ -45,5 +54,6 @@ projects[rubik][version] = "4.0-beta7"
 
 projects[tao][version] = "3.0-beta4"
 
-projects[zen][version] = "3.1"
+
+
 
