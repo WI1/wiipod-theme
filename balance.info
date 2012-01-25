@@ -1,0 +1,32 @@
+; $Id:$
+name = balance
+description = A BALANCEd theme
+core = 6.x
+engine = phptemplate
+
+regions[balance_bar] = Balance Bar
+regions[content_top] = Content top
+regions[left] = Left sidebar
+regions[announcement]  = Announcement
+regions[content] = Content
+regions[footer] = Footer
+regions[group_pages_view] = Group Pages
+regions[header] = Header
+regions[meta_content] = Meta Content
+regions[profile_content] = Profile
+regions[project_sidebar] = Project Sidebar
+regions[right] = Right sidebar
+regions[teaser_1] = Teaser 1
+regions[teaser_2] = Teaser 2
+regions[teaser_3] = Teaser 3
+
+scripts[] = scripts.js
+scripts[] = addthis_widget.js
+
+admin[admin_inline] = 0
+
+stylesheets[all][] = css/nav.css
+stylesheets[all][] = css/focusgroups.css
+stylesheets[all][] = famfamfam-silk-sprite.css
+stylesheets[all][] = style.css
+stylesheets[all][] = update.css

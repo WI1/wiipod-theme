@@ -1,0 +1,104 @@
+﻿/*
+-----------------------------------------------
+Grey Box Method - Layout CSS
+----------------------------------------------- */
+
+body {
+	color: #333;
+	font-size: 11px;
+	padding: 0;
+}
+
+
+/* anchors
+----------------------------------------------- */
+a { text-decoration: none; }
+
+/* headings
+----------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {line-height:1.2em; margin-bottom:.3em;}
+h2 {margin-top:1em;}
+h5 {font-size:1.2em;}
+h6 {font-size:1em; text-transform:uppercase;}
+
+
+/* paragraphs, quotes and lists
+----------------------------------------------- */
+
+blockquote {
+  font-style: italic;
+  padding-left: 1em;
+  border-left:4px solid #ccc;
+}
+blockquote cite {
+  font-size:.9em;
+}
+ul, ol {
+  margin-bottom: 1em;
+  padding-top:0;
+}
+
+
+
+/* table
+----------------------------------------------- */
+table {
+  width:100%;
+  margin-bottom:10px;
+}
+col.colC {
+  width:8em;
+}
+th, td {
+  padding:.2em 1em;
+  text-align:left;
+}
+
+.views-view-grid th, .views-view-grid td {
+padding: 0;
+}
+
+thead th {
+  background:#bbb;
+  padding:.4em 1em .2em;
+}
+thead th.table-head {
+	font-size:1em;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#fff;
+	background:#555;
+	border:1px solid #555;
+}
+
+.view-projects tbody th,
+.view-projects tbody td {
+	padding: 0 !important;
+}
+tbody tr.odd th,
+tbody tr.odd td {
+  background:#fff;
+}
+
+.system-status-report tbody tr.odd th,
+.system-status-report tbody tr.odd td  {
+background-color: inherit !important;
+background-repeat: no-repeat !important;
+}
+
+tfoot th,
+tfoot td {
+  border-top:2px solid #666;
+  background:#eee;
+}
+tfoot tr.total th,
+tfoot tr.total td {
+  border-top:6px double #666;
+}
+tfoot tr.total th {
+  text-transform:uppercase;
+}
+th.currency,
+td.currency {
+  text-align:right;
+}

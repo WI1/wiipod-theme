@@ -1,0 +1,543 @@
+﻿.fg1 {
+border-color: #e32d6e !important /* Magenta */;
+}
+
+.fg2 {
+border-color: #bf0c27 !important/* Rot */;
+}
+
+.fg3 {
+border-color: #fcc000 !important /* Dunkelgelb */;
+}
+
+.fg4 {
+border-color: #b1c800  !important /* Hellgr n */;
+}
+
+.fg5 {
+border-color: #578830 !important /* Dunkelgr n */;
+}
+
+.fg6 {
+border-color: #00a8db !important /* Hellblau */;
+}
+
+.fg7 {
+border-color: #0e72b5 !important /* Dunkelblau */;
+}
+
+.fg8 {
+border-color: #921f75 !important /* Lila */;
+}
+
+
+.view-recent-posts-in-active-group ul li {
+list-style-type: none !important;
+clear: both;
+margin-top: 18px;
+height: 80px;
+}
+
+.view-recent-posts-in-active-group .views-field-name a {
+font-size: 13px;
+font-weight: bold;
+text-decoration: none;
+color: #243D80;
+}
+
+.view-recent-posts-in-active-group .views-field-title a {
+font-size: 13px;
+font-weight: bold;
+}
+
+.view-recent-posts-in-active-group .views-field-teaser {
+font-size: 13px;
+display: block;
+height: 50px;
+margin-bottom: 5px;
+}
+
+.view-recent-posts-in-active-group li {
+padding-bottom: 0.75em;
+margin-bottom: 0.75em;
+border-bottom: 1px solid #ccc;
+}
+
+.view-recent-posts-in-active-group .views-field-picture {
+float: left;
+}
+
+.view-recent-posts-in-active-group .views-field-created {
+float: left;
+width: 100px;
+position: relative;
+top: -10px;
+color: #999;
+margin-left: 72px;
+}
+
+
+
+/*************************/
+/***** Fokusgruppen ******/
+/*************************/
+body.fg1 .project-title {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_1.png) no-repeat right 3px !important;
+}
+
+body.fg2 .project-title {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_2.png) no-repeat right 3px !important;
+}
+
+body.fg3 .project-title {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_3.png) no-repeat right 3px !important;
+}
+
+body.fg4 .project-title {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_4.png) no-repeat right 3px !important;
+}
+
+body.fg5 .project-title {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_5.png) no-repeat right 3px !important;
+}
+
+body.fg6 .project-title {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_6.png) no-repeat right 3px !important;
+}
+
+body.fg7 .project-title {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_7.png) no-repeat right 3px !important;
+}
+
+body.fg8 .project-title {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_8.png) no-repeat right 3px !important;
+}
+
+li a.fg1,
+li a.fg2,
+li a.fg3,
+li a.fg4,
+li a.fg5,
+li a.fg6,
+li a.fg7,
+li a.fg8 {
+height: 25px;
+display: block;
+margin: 0 !important;
+padding: 0 !important;
+text-indent: -9000px !important;
+background-color: transparent;
+}
+
+li a.fg1 ,
+ul#nice-menu-1 li li a.fg1 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_klein/fokusgruppe_1.png) no-repeat 0 0 !important;
+}
+
+li a.fg2,
+ul#nice-menu-1 li li a.fg2 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_klein/fokusgruppe_2.png) no-repeat 0 0 !important;
+}
+
+li a.fg3,
+ul#nice-menu-1 li li a.fg3 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_klein/fokusgruppe_3.png) no-repeat 0 0 !important;
+}
+
+li a.fg4,
+ul#nice-menu-1 li li a.fg4 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_klein/fokusgruppe_4.png) no-repeat 0 0 !important;
+}
+
+li a.fg5,
+ul#nice-menu-1 li li a.fg5 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_klein/fokusgruppe_5.png) no-repeat 0 0 !important;
+}
+
+li a.fg6,
+ul#nice-menu-1 li li a.fg6 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_klein/fokusgruppe_6.png) no-repeat 0 0 !important;
+}
+
+li a.fg7,
+ul#nice-menu-1 li li a.fg7 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_klein/fokusgruppe_7.png) no-repeat 0 0 !important;
+}
+
+li a.fg8,
+ul#nice-menu-1 li li a.fg8 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_klein/fokusgruppe_8.png) no-repeat 0 0 !important;
+}
+
+.story.fg1,
+.story.fg2,
+.story.fg3,
+.story.fg4,
+.story.fg5,
+.story.fg6,
+.story.fg7,
+.story.fg8 {
+padding-left: 70px !important;
+margin-left: 0;
+}
+
+.story.fg1 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_1.png) no-repeat 0 20px;
+}
+
+.story.fg2 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_2.png) no-repeat 0 20px;
+}
+
+.story.fg3 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_3.png) no-repeat 0 20px;
+}
+
+.story.fg4 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_4.png) no-repeat 0 20px;
+}
+
+.story.fg5 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_5.png) no-repeat 0 20px;
+}
+
+.story.fg6 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_6.png) no-repeat 0 20px;
+}
+
+.story.fg7 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_7.png) no-repeat 0 20px;
+}
+
+.story.fg8 {
+background: url(/sites/balanceonline.org/themes/balance/img/badges_mittel/fokusgruppe_8.png) no-repeat 0 20px;
+}
+
+/***************************************************/
+/*  Fokusgruppe 1 								   */
+/***************************************************/
+
+body.fg1 #content {
+border-color: #e32d6e;
+}
+
+body.fg1 .tabs.primary li.active a {
+border: 1px solid #e32d6e !important;
+}
+
+body.fg1 .tabs.primary li a:hover {
+background: #e32d6e !important;
+}
+
+body.fg1 .tabs.primary li.active a {
+border-bottom-width: 0 !important;
+color: #e32d6e;
+}
+
+body.fg1 .tabs.primary li.active a:hover {
+color: #e32d6e !important;
+}
+
+body.fg1 #project-sidebar .block {
+color: #e32d6e;
+}
+
+body.fg1 #project-sidebar .block a {
+color: #e32d6e;
+}
+
+body.fg1 #project-sidebar .block  h2 ,
+body.fg1 .block .view-header,
+body.fg1 #project-sidebar .block  h2 a {
+color: #fff;
+border-bottom: 0;
+background: #e32d6e;
+}
+
+/***************************************************/
+/*  Fokusgruppe 2							   */
+/***************************************************/
+
+body.fg2 #content {
+border-color: #bf0c27;
+}
+
+body.fg2 .tabs.primary li.active a {
+border: 1px solid #bf0c27 !important;
+}
+
+body.fg2 .tabs.primary li a:hover {
+background: #bf0c27 !important;
+}
+
+body.fg2 .tabs.primary li.active a {
+border-bottom-width: 0 !important;
+color: #bf0c27;
+}
+
+body.fg2 .tabs.primary li.active a:hover {
+color: #bf0c27 !important;
+}
+
+body.fg2 #project-sidebar .block {
+color: #bf0c27;
+}
+
+body.fg2 #project-sidebar .block a {
+color: #bf0c27;
+}
+
+body.fg2 #project-sidebar .block  h2 ,
+body.fg2 .block .view-header,
+body.fg2 #project-sidebar .block  h2 a {
+color: #fff;
+border-bottom: 0;
+background: #bf0c27;
+}
+
+/***************************************************/
+/*  Fokusgruppe 3								   */
+/***************************************************/
+
+body.fg3 #content {
+border-color: #fcc000 ;
+}
+
+body.fg3 .tabs.primary li.active a {
+border: 1px solid #fcc000  !important;
+}
+
+body.fg3 .tabs.primary li a:hover {
+background: #fcc000  !important;
+}
+
+body.fg3 .tabs.primary li.active a {
+border-bottom-width: 0 !important;
+color: #fcc000;
+}
+
+body.fg3 .tabs.primary li.active a:hover {
+color: #fcc000 !important;
+}
+
+body.fg3 #project-sidebar .block {
+color: #fcc000;
+}
+
+body.fg3 #project-sidebar .block a {
+color: #fcc000;
+}
+
+body.fg3 #project-sidebar .block  h2 ,
+body.fg3 .block .view-header,
+body.fg3 #project-sidebar .block  h2 a {
+color: #fff;
+border-bottom: 0;
+background: #fcc000;
+}
+
+/***************************************************/
+/*  Fokusgruppe 4								   */
+/***************************************************/
+
+body.fg4 #content {
+border-color: #b1c800;
+}
+
+body.fg4 .tabs.primary li.active a {
+border: 1px solid #b1c800 !important;
+}
+
+body.fg4 .tabs.primary li a:hover {
+background: #b1c800 !important;
+}
+
+body.fg4 .tabs.primary li.active a {
+border-bottom-width: 0 !important;
+color: #b1c800;
+}
+
+body.fg4 .tabs.primary li.active a:hover {
+color: #b1c800 !important;
+}
+
+body.fg4 #project-sidebar .block {
+color: #b1c800;
+}
+
+body.fg4 #project-sidebar .block a {
+color: #b1c800;
+}
+
+body.fg4 #project-sidebar .block  h2 ,
+body.fg4 .block .view-header,
+body.fg4 #project-sidebar .block  h2 a {
+color: #fff;
+border-bottom: 0;
+background: #b1c800;
+}
+
+/***************************************************/
+/*  Fokusgruppe 5								   */
+/***************************************************/
+
+body.fg5 #content {
+border-color: #578830;
+}
+
+body.fg5 .tabs.primary li.active a {
+border: 1px solid #578830!important;
+}
+
+body.fg5 .tabs.primary li a:hover {
+background: #578830!important;
+}
+
+body.fg5 .tabs.primary li.active a {
+border-bottom-width: 0 !important;
+color: #578830;
+}
+
+body.fg5 .tabs.primary li.active a:hover {
+color: #578830!important;
+}
+
+body.fg5 #project-sidebar .block {
+color: #578830;
+}
+
+body.fg5 #project-sidebar .block a {
+color: #578830;
+}
+
+body.fg5 #project-sidebar .block  h2 ,
+body.fg5 .block .view-header,
+body.fg5 #project-sidebar .block  h2 a {
+color: #fff;
+border-bottom: 0;
+background: #578830;
+}
+
+/***************************************************/
+/*  Fokusgruppe 6							   */
+/***************************************************/
+
+body.fg6 #content {
+border-color: #00a8db;
+}
+
+
+body.fg6 .tabs.primary li.active a {
+border: 1px solid #00a8db!important;
+}
+
+body.fg6 .tabs.primary li a:hover {
+background: #00a8db!important;
+}
+
+body.fg6 .tabs.primary li.active a {
+border-bottom-width: 0 !important;
+color: #00a8db;
+}
+
+body.fg6 .tabs.primary li.active a:hover {
+color: #00a8db!important;
+}
+
+body.fg6 #project-sidebar .block {
+color: #00a8db;
+}
+
+body.fg6 #project-sidebar .block a {
+color: #00a8db;
+}
+
+body.fg6 #project-sidebar .block  h2 ,
+body.fg6 .block .view-header,
+body.fg6 #project-sidebar .block  h2 a {
+color: #fff;
+border-bottom: 0;
+background: #00a8db;
+}
+
+/***************************************************/
+/*  Fokusgruppe 7								   */
+/***************************************************/
+
+body.fg7 #content {
+border-color: #0e72b5;
+}
+
+body.fg7 .tabs.primary li.active a {
+border: 1px solid #0e72b5 !important;
+}
+
+body.fg7 .tabs.primary li a:hover {
+background: #0e72b5 !important;
+}
+
+body.fg7 .tabs.primary li.active a {
+border-bottom-width: 0 !important;
+color: #0e72b5;
+}
+
+body.fg7 .tabs.primary li.active a:hover {
+color: #0e72b5 !important;
+}
+
+body.fg7 #project-sidebar .block {
+color: #0e72b5;
+}
+
+body.fg7 #project-sidebar .block a {
+color: #0e72b5;
+}
+
+body.fg7 #project-sidebar .block  h2 ,
+body.fg7 .block .view-header,
+body.fg7 #project-sidebar .block  h2 a {
+color: #fff;
+border-bottom: 0;
+background: #0e72b5;
+}
+
+/***************************************************/
+/*  Fokusgruppe 8								   */
+/***************************************************/
+
+body.fg8 #content {
+border-color: #921f75;
+}
+
+body.fg8 .tabs.primary li.active a {
+border: 1px solid #921f75 !important;
+}
+
+body.fg8 .tabs.primary li a:hover {
+background: #921f75 !important;
+}
+
+body.fg8 .tabs.primary li.active a {
+border-bottom-width: 0 !important;
+color: #921f75;
+}
+
+body.fg8 .tabs.primary li.active a:hover {
+color: #921f75 !important;
+}
+
+body.fg8 #project-sidebar .block {
+color: #921f75;
+}
+
+body.fg8 #project-sidebar .block a {
+color: #921f75;
+}
+
+body.fg8 #project-sidebar .block  h2 ,
+body.fg8 .block .view-header,
+body.fg8 #project-sidebar .block  h2 a {
+color: #fff;
+border-bottom: 0;
+background: #921f75;
+}
