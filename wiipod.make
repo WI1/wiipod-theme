@@ -364,7 +364,7 @@ projects[wiki][type] = "module"
 projects[wiki][subdir] = "sites/all/modules/features"
 
 projects[wiipod_feats][download][type] = "git"
-projects[wiipod_feats][download][url] = "git@github.com:harryster/wiipod-feats.git"
+projects[wiipod_feats][download][url] = "git://github.com/harryster/wiipod-feats.git"
 projects[wiipod_feats][type] = "module"
 projects[wiipod_feats][version] = "1.1"
 
@@ -374,6 +374,6 @@ projects[wiipod_feats][version] = "1.1"
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
 projects[balance][download][type] = "git"
-projects[balance][download][url] = "git@redmine.wi1projects.com:wiipod.git"
+projects[balance][download][url] = "git://redmine.wi1projects.com/wiipod.git"
 projects[balance][type] = "theme"
 
