@@ -374,6 +374,6 @@ projects[wiipod_feats][version] = "1.1"
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
 projects[balance][download][type] = "git"
-projects[balance][download][url] = "git://redmine.wi1projects.com/wiipod.git"
+projects[balance][download][url] = "git://github.com/harryster/wiipod-theme.git"
 projects[balance][type] = "theme"
 
