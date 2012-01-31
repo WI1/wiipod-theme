@@ -349,7 +349,7 @@ projects[pressclippings][type] = "module"
 projects[pressclippings][subdir] = "sites/all/modules/features"
 
 projects[profiles][download][type] = "git"
-projects[profiles][download][url] = "git@github.com:WI1/Balance-User-Profiles.git"
+projects[profiles][download][url] = "git://redmine.wi1projects.com/balance/profiles.git"
 projects[profiles][type] = "module"
 projects[profiles][subdir] = "sites/all/modules/features"
 
