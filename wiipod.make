@@ -348,10 +348,10 @@ projects[pressclippings][download][url] = "git://github.com/WI1/BALANCE_publicat
 projects[pressclippings][type] = "module"
 projects[pressclippings][subdir] = "sites/all/modules/features"
 
-projects[publications][download][type] = "git"
-projects[publications][download][url] = "git://github.com/WI1/BALANCE_publications.git"
-projects[publications][type] = "module"
-projects[publications][subdir] = "sites/all/modules/features"
+projects[profiles][download][type] = "git"
+projects[profiles][download][url] = "git@github.com:WI1/Balance-User-Profiles.git"
+projects[profiles][type] = "module"
+projects[profiles][subdir] = "sites/all/modules/features"
 
 projects[videos][download][type] = "git"
 projects[videos][download][url] = "git://github.com/WI1/BALANCE_video.git"
