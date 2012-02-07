@@ -289,8 +289,7 @@ projects[views_groupby][version] = "1.0-rc2"
 
 projects[views_or][version] = "1.x-dev"
 
-projects[views_slideshow][subdir] = "sites/all/modules"
-projects[views_slideshow][version] = "2.0"
+;projects[views_slideshow][version] = "2.0"
 
 projects[views_tabs][version] = "1.0-beta1"
 
