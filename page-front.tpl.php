@@ -107,7 +107,7 @@
 				</div><!-- /main-squeeze -->
 			</div><!-- /main -->
 			<?php if (!empty($right)): ?>
-			<div id="sidebar-right" class="column sidebar grid_3">
+			<div id="sidebar-right" class="column sidebar grid_3 <?php if (!empty ($content_top)): ?> rightbarfr <?php endif; ?> ">
 				<?php print $right; ?>
 			</div><!-- /sidebar-right -->
 			<?php endif; ?>
