@@ -537,7 +537,7 @@ projects[wiki][subdir] = "cfeatures"
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
 projects[balance][download][type] = "git"
-projects[balance][download][url] = "git://github.com/harryster/wiipod-theme.git"
+projects[balance][download][url] = "git://github.com/WI1/wiipod-theme.git"
 projects[balance][type] = "theme"
 
 
