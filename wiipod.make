@@ -502,6 +502,7 @@ projects[groups][download][url] = "git://github.com/WI1/BALANCE_groups.git"
 projects[groups][type] = "module"
 projects[groups][subdir] = "cfeatures"
 
+
 projects[user_profiles][download][type] = "git"
 projects[user_profiles][download][url] = "git://github.com/WI1/Balance-User-Profiles.git"
 projects[user_profiles][type] = "module"
