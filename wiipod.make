@@ -528,10 +528,6 @@ projects[videos][download][url] = "git://github.com/WI1/BALANCE_video.git"
 projects[videos][type] = "module"
 projects[videos][subdir] = "cfeatures"
 
-projects[wiki][download][type] = "git"
-projects[wiki][download][url] = "git://github.com/WI1/BALANCE_wiki.git"
-projects[wiki][type] = "module"
-projects[wiki][subdir] = "cfeatures"
 
 
 ; Themes
