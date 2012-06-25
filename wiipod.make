@@ -297,7 +297,27 @@ projects[vt_default][version] = "1.0-rc3"
 
 projects[wikitools][version] = "1.2"
 
-projects[wysiwyg][version] = "2.4"
+; TinyMCE
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.0.1.zip"
+libraries[tinymce][directory_name] = "tinymce"
+
+  ;- libraries dependency
+  projects[libraries][subdir] = "contrib"
+
+  ; WYSIWYG
+  projects[wysiwyg][subdir] = "patched"
+  projects[wysiwyg][version]= "2.4"
+  projects[wysiwyg][patch][]= "http://drupal.org/files/wysiwyg.tinymce-lists.682160.7.patch"
+
+  ; IMCE WYSIWYG BRIDGE
+  projects[imce_wysiwyg][subdir] = "contrib"
+  projects[imce_wysiwyg][version]= "1.1"
+
+  ; IMCE
+  projects[imce][subdir] = "contrib"
+  projects[imce][version]= "2.3"
+
 
 
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
