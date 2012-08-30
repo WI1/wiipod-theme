@@ -1,10 +1,10 @@
 <?php
 // $Id:
-function balance_node_more_link($node) {
+function wiipod_node_more_link($node) {
 	return '<div class="node-more-link">&hellip; ' . l('weiterlesen', 'node/' . $node->nid) . '</div>';
 }
 
-function balance_addthis_button() {
+function wiipod_addthis_button() {
 	return '<div class="addthis_button_div">
 		<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=stoeckit"><img src="/themes/wiipod/img/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/></a>
 	</div>';
@@ -16,7 +16,7 @@ function balance_addthis_button() {
  * @param path
  *   The url for the ical feed
  */
-function balance_event_ical_link($path) {
+function wiipod_event_ical_link($path) {
 	return '';
 }
 
@@ -26,7 +26,7 @@ function balance_event_ical_link($path) {
  * @param string path
  *   The url to use for the read more link
  */
-function balance_event_more_link($path) {
+function wiipod_event_more_link($path) {
 	return '<div class="more-link">'. l('Alle Termine', $path) .'</div>';
 }
 
@@ -36,7 +36,7 @@ function balance_event_more_link($path) {
  * @param node
  *   The node to render as an upcoming event
  */
-function balance_event_upcoming_item($node, $types = array()) {
+function wiipod_event_upcoming_item($node, $types = array()) {
 	$formatted_date = date('d.m.', strtotime($node->event_start));
 
 	$output = l($formatted_date . ' | ' . $node->title, 'node/' . $node->nid, array('attributes' => array('title' => $node->title)));
@@ -50,12 +50,12 @@ function balance_event_upcoming_item($node, $types = array()) {
  * @param array $groups
  *   e.g. 45 => 'ACHTINO' (og_groups_both)
  */
-function balance_visibility($groups) {
+function wiipod_visibility($groups) {
 	$output = sprintf('<div class="visibility" title="Sichtbar für %s"></div>', implode(' | ', $groups));
 	return $output;
 }
 
-function balance_edit_link($node) {
+function wiipod_edit_link($node) {
 	$output = '';
 
 	if(in_array($node->type, array('project', 'focusgroup')) && arg(2) != 'info') {
@@ -82,7 +82,7 @@ function balance_edit_link($node) {
  * @param object parent
  *   parent node
  */
-function balance_parent_focusgroup($node, $parent) {
+function wiipod_parent_focusgroup($node, $parent) {
 
 	//echo '<div>';
 	//echo "<b>Ansprechpartner</b><br>";
@@ -116,8 +116,8 @@ function balance_parent_focusgroup($node, $parent) {
  * @param string end
  * @todo working setLocale
  */
-function balance_timeframe($start, $end = '0000-00-00 00:00:00') {
-	$dateString = _balance_timeframe_original($start, $end);
+function wiipod_timeframe($start, $end = '0000-00-00 00:00:00') {
+	$dateString = _wiipod_timeframe_original($start, $end);
 
 	$daysEn = array('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday');
 	$daysDe = array('Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag','Sonntag');
@@ -130,7 +130,7 @@ function balance_timeframe($start, $end = '0000-00-00 00:00:00') {
  * @param string start
  * @param string end
  */
-function _balance_timeframe_original($start, $end) {
+function _wiipod_timeframe_original($start, $end) {
 	$start_date = substr($start, 0, 10);
 	$end_date = substr($end, 0, 10);
 
@@ -167,7 +167,7 @@ function _balance_timeframe_original($start, $end) {
  * @param $hook
  *   The name of the theme function being called (not used in this case.)
  */
-function balance_preprocess_search_block_form(&$vars, $hook) {
+function wiipod_preprocess_search_block_form(&$vars, $hook) {
 	// todo: replace this by a more drupal-way solution
 	$vars['search_form'] = str_replace('Diese Website durchsuchen:', 'Suche …', $vars['search_form']);
 }
@@ -179,7 +179,7 @@ function balance_preprocess_search_block_form(&$vars, $hook) {
  * @param array object
  * @return string
  */
-function balance_username($object) {
+function wiipod_username($object) {
 	// copy of theme_username from here on
 	if ($object->uid && $object->name) {
 		if(isset($object->profile_firstname)) {
@@ -312,7 +312,7 @@ function phptemplate_group_list_item($g, $withTitle = TRUE, $withCreateLink = FA
  *
  * @param object $node
  */
-function balance_og_add_blog_link($node) {
+function wiipod_og_add_blog_link($node) {
 	global $user;
 	list($txt, $subscription) = og_subscriber_count_link($node);
 
@@ -324,14 +324,14 @@ function balance_og_add_blog_link($node) {
 	}
 }
 
-function balance_menu_local_task($link,$selected=0) {
+function wiipod_menu_local_task($link,$selected=0) {
 	if (strpos($link, 'hide="true"')) { 
 		return '';
 	}
 	return '<li '.($selected==1 ? ' class="active"': '').'>'.$link.'</li>';
 }
 
-function balance_menu_item_link($link) {
+function wiipod_menu_item_link($link) {
 	if ($link['path']=='node/%/edit') { 
 		$link['localized_options']['attributes']['hide'] .= 'true';
 	}
@@ -383,7 +383,7 @@ function phptemplate_business_card($uid) {
 
 	return $hcardOutput;
 }
-function balance_upload_form_current(&$form) {
+function wiipod_upload_form_current(&$form) {
 	$header = array('', t('Description'),t('Delete'));
 	//$header = array();
 	drupal_add_tabledrag('upload-attachments', 'order', 'sibling', 'upload-weight');
@@ -406,7 +406,7 @@ function balance_upload_form_current(&$form) {
 
 }
 
-function balance_upload_form_new(&$form) {
+function wiipod_upload_form_new(&$form) {
 	$files = & $form['files'];
 	$files['#weight']=10;
 	foreach ($files as $fileId =>$file) {
