@@ -11,7 +11,7 @@
 		</div>
 	<?php endif; ?>
 	<?php if (isset($og_public) && $og_public === FALSE): ?>
-	<?php print balance_visibility($node->og_groups_both); ?>
+	<?php print wiipod_visibility($node->og_groups_both); ?>
 	<?php endif; ?>
 
   <div class="content">
@@ -20,7 +20,7 @@
 		<p><?php print $node_read_more; ?></p>
 		<?php endif; ?>
   </div>
-	<?php print balance_addthis_button(); ?>
+	<?php print wiipod_addthis_button(); ?>
   <div class="links"><?php print $submitted; ?><?php if($links): ?> | <?php print $links; ?><?php endif; ?></div>
 </div>
 <?php if(isset($after)) { print $after; }?>
