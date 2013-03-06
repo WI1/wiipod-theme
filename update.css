@@ -45,13 +45,13 @@ body.front .node .content p { display: block; }
 	#block-menu-menu-fgtop { width: 100px; margin: 0; }
 	#block-user-1 { margin: 0; }
 	#block-user-1 li a:hover, #block-user-1 li.active-trail a { background: none; text-decoration: underline; }
-	#block-menu-menu-fgtop li a.wiipod { height: 26px !important; }
+	#block-menu-menu-fgtop li a.balance { height: 26px !important; }
 	
 	
 	
 /* Fokusgruppen Logomenü */
 #block-nice_menus-2 { position: absolute; width: 300px; top: 0px; margin: 0 0 0 750px; clear: both; }
-#wiipod-bar .nice-menu { clear: both; }
+#balance-bar .nice-menu { clear: both; }
 
 /* Search */
 #block-search-0 { float: left; display: block; margin: 32px 0 0 0;   }
@@ -99,10 +99,10 @@ body.front .node .content p { display: block; }
 
 /* Fokusgruppen Navigation */
 
-	#wiipod-bar .nice-menu li ul { border-color: #404040; }
-	#wiipod-bar .nice-menu li ul li { padding: 0 !important; }
-	#wiipod-bar .nice-menu li ul li a { padding: 3px 1px !important; color: #404040; margin: 0 !important; height: auto !important;  }
-	#wiipod-bar .nice-menu li ul li a:hover { text-decoration: none; margin: 0 !important; color: #000; }
+	#balance-bar .nice-menu li ul { border-color: #404040; }
+	#balance-bar .nice-menu li ul li { padding: 0 !important; }
+	#balance-bar .nice-menu li ul li a { padding: 3px 1px !important; color: #404040; margin: 0 !important; height: auto !important;  }
+	#balance-bar .nice-menu li ul li a:hover { text-decoration: none; margin: 0 !important; color: #000; }
 
 
 /* Paginierung */
@@ -216,7 +216,7 @@ body.front .node .content p { display: block; }
 
 
 /* Gefällt mir */
-body.node-type-wiipodwiki div.links.wiki { top: inherit !important; }
+body.node-type-balancewiki div.links.wiki { top: inherit !important; }
 
 /*.node .links { float: none !important; } Removed to make line on equal height as share button */ 
 .node .links .links, .node .links li { float: none !important; }
@@ -277,7 +277,7 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 #authors.block { margin-top: 0; }
 #authors .picture { margin-bottom: 20px; }
 .feed-icon { float: right; }
-#wiipod-node-edit, #wiipod-user-edit { right: inherit !important; float: none !important; padding: 2px 4px; }
+#balance-node-edit, #balance-user-edit { right: inherit !important; float: none !important; padding: 2px 4px; }
 /*
 #sidebar-right li, #content li { list-style-image: url(img/bg/list-icon.jpg) !important; list-style-type: none !important; }
 #block-projecttabs-2 ul, #block-projecttabs-2 ul li, #block-focus_groups-0 ul li, ul.no-bullets li { list-style-image: none !important; }

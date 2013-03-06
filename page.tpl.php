@@ -1,5 +1,5 @@
 <?php
-if ($node->type == 'wiipodwiki' || $node->type == 'dokuwiki') {
+if ($node->type == 'balancewiki' || $node->type == 'dokuwiki') {
 $grid = array(
 	'left' => 2,
 	'middle' => 10,
@@ -30,10 +30,10 @@ $grid = array(
 	<body class="<?php print $body_classes; ?> node-<?php print $node->nid; ?>">
 		<div id="page">
 			<div id="pageInner">
-					<?php if (!empty($wiipod_bar)): ?>
-					<div id="wiipod-bar">
-						<div id="wiipod-bar-inner">
-							<?php print $wiipod_bar; ?>
+					<?php if (!empty($balance_bar)): ?>
+					<div id="balance-bar">
+						<div id="balance-bar-inner">
+							<?php print $balance_bar; ?>
 						</div>
 					</div>
 					<?php endif; ?>
@@ -58,7 +58,7 @@ $grid = array(
 						<div id="logo-title">
 							<div class="logo-title">
 							<?php if($fg): // page with fg context ?>
-								<?php print l('<img src="' . $base_path . 'sites/all/themes/wiipod/img/badges_gross/fokusgruppe_' . $fg->field_fgnumber_value . '.png" />', 'node/' . $fg->nid, array('html' => TRUE)) ?>
+								<?php print l('<img src="' . $base_path . 'sites/all/themes/balance/img/badges_gross/fokusgruppe_' . $fg->field_fgnumber_value . '.png" />', 'node/' . $fg->nid, array('html' => TRUE)) ?>
 							<?php else: ?>
 							<a id="logo" href="<?php print $front_page; ?>" rel="home" title="<?php print t('Home'); ?>">
 								<img alt="<?php print t('Home'); ?>" src="<?php print $logo; ?>" />
@@ -106,9 +106,9 @@ $grid = array(
 									<?php endif; ?>
 									<?php if(isset($node)): ?>
 										<?php if(in_array($node->type, array('project', 'focusgroup')) && arg(2) == null): ?>
-											<?php print wiipod_og_add_blog_link($node); ?>
+											<?php print balance_og_add_blog_link($node); ?>
 										<?php endif; ?>
-										<?php print wiipod_edit_link($node); ?>
+										<?php print balance_edit_link($node); ?>
 									<?php endif; ?>
 									<?php print $content; ?>
 								</div><!-- /content-content -->

@@ -5,8 +5,8 @@
 .famfam.inactive{background-image: url('images/famfamfam-silk-sprites/famfam-inactive.png'); cursor:default;}
 
 /* icon set items - include only the rules for the icons you wish to use in your page*/
-.famfam-accept, .wiipod-node-save {background-position: -0px -0px;}
-.famfam-add, .wiipod-node-add {background-position: -20px -0px;}
+.famfam-accept, .balance-node-save {background-position: -0px -0px;}
+.famfam-add, .balance-node-add {background-position: -20px -0px;}
 .famfam-anchor {background-position: -40px -0px;}
 .famfam-application {background-position: -60px -0px;}
 .famfam-application_add {background-position: -80px -0px;}
@@ -97,7 +97,7 @@
 .famfam-bin_closed {background-position: -180px -40px;}
 .famfam-bin_empty {background-position: -200px -40px;}
 .famfam-bomb {background-position: -220px -40px;}
-.famfam-book , .wiipod-biblio {background-position: -240px -40px;}
+.famfam-book , .balance-biblio {background-position: -240px -40px;}
 .famfam-book_add {background-position: -260px -40px;}
 .famfam-book_addresses {background-position: -280px -40px;}
 .famfam-book_delete {background-position: -300px -40px;}
@@ -240,11 +240,11 @@
 .famfam-clock_play {background-position: -640px -100px;}
 .famfam-clock_red {background-position: -660px -100px;}
 .famfam-clock_stop {background-position: -680px -100px;}
-.famfam-cog, .wiipod-node {background-position: -700px -100px;}
+.famfam-cog, .balance-node {background-position: -700px -100px;}
 .famfam-cog_add {background-position: -720px -100px;}
-.famfam-cog_delete, .wiipod-node-delete {background-position: -740px -100px;}
-.famfam-cog_edit, .wiipod-node-edit {background-position: -760px -100px;}
-.famfam-cog_error, .wiipod-node-error {background-position: -780px -100px;}
+.famfam-cog_delete, .balance-node-delete {background-position: -740px -100px;}
+.famfam-cog_edit, .balance-node-edit {background-position: -760px -100px;}
+.famfam-cog_error, .balance-node-error {background-position: -780px -100px;}
 .famfam-cog_go {background-position: -0px -120px;}
 .famfam-coins {background-position: -20px -120px;}
 .famfam-coins_add {background-position: -40px -120px;}
@@ -329,7 +329,7 @@
 .famfam-database_refresh {background-position: -20px -160px;}
 .famfam-database_save {background-position: -40px -160px;}
 .famfam-database_table {background-position: -60px -160px;}
-.famfam-date, .wiipod-event {background-position: -80px -160px;}
+.famfam-date, .balance-event {background-position: -80px -160px;}
 .famfam-date_add {background-position: -100px -160px;}
 .famfam-date_delete {background-position: -120px -160px;}
 .famfam-date_edit {background-position: -140px -160px;}
@@ -459,7 +459,7 @@
 .famfam-font_add {background-position: -220px -220px;}
 .famfam-font_delete {background-position: -240px -220px;}
 .famfam-font_go {background-position: -260px -220px;}
-.famfam-group, .wiipod-project, .wiipod-focusgroup, .wiipod-conftoolgroup {background-position: -280px -220px;}
+.famfam-group, .balance-project, .balance-focusgroup, .balance-conftoolgroup {background-position: -280px -220px;}
 .famfam-group_add {background-position: -300px -220px;}
 .famfam-group_delete {background-position: -320px -220px;}
 .famfam-group_edit {background-position: -340px -220px;}
@@ -599,7 +599,7 @@
 .famfam-newspaper_delete {background-position: -620px -280px;}
 .famfam-newspaper_go {background-position: -640px -280px;}
 .famfam-newspaper_link {background-position: -660px -280px;}
-.famfam-note, .wiipod-blog {background-position: -680px -280px;}
+.famfam-note, .balance-blog {background-position: -680px -280px;}
 .famfam-note_add {background-position: -700px -280px;}
 .famfam-note_delete {background-position: -720px -280px;}
 .famfam-note_edit {background-position: -740px -280px;}
@@ -633,7 +633,7 @@
 .famfam-page_red {background-position: -500px -300px;}
 .famfam-page_refresh {background-position: -520px -300px;}
 .famfam-page_save {background-position: -540px -300px;}
-.famfam-page_white, .wiipod-page, .wiipod-panel {background-position: -560px -300px;}
+.famfam-page_white, .balance-page, .balance-panel {background-position: -560px -300px;}
 .famfam-page_white_acrobat {background-position: -580px -300px;}
 .famfam-page_white_actionscript {background-position: -600px -300px;}
 .famfam-page_white_add {background-position: -620px -300px;}
@@ -674,7 +674,7 @@
 .famfam-page_white_php {background-position: -520px -320px;}
 .famfam-page_white_picture {background-position: -540px -320px;}
 .famfam-page_white_powerpoint {background-position: -560px -320px;}
-.famfam-page_white_put, .wiipod-download {background-position: -580px -320px;}
+.famfam-page_white_put, .balance-download {background-position: -580px -320px;}
 .famfam-page_white_ruby {background-position: -600px -320px;}
 .famfam-page_white_stack {background-position: -620px -320px;}
 .famfam-page_white_star {background-position: -640px -320px;}
@@ -709,7 +709,7 @@
 .famfam-photo_delete {background-position: -420px -340px;}
 .famfam-photo_link {background-position: -440px -340px;}
 .famfam-photos {background-position: -460px -340px;}
-.famfam-picture, .wiipod-gallery_image {background-position: -480px -340px;}
+.famfam-picture, .balance-gallery_image {background-position: -480px -340px;}
 .famfam-picture_add {background-position: -500px -340px;}
 .famfam-picture_delete {background-position: -520px -340px;}
 .famfam-picture_edit {background-position: -540px -340px;}
@@ -906,7 +906,7 @@
 .famfam-text_align_left {background-position: -360px -440px;}
 .famfam-text_align_right {background-position: -380px -440px;}
 .famfam-text_allcaps {background-position: -400px -440px;}
-.famfam-text_bold , .wiipod-wiipodwiki{background-position: -420px -440px;}
+.famfam-text_bold , .balance-balancewiki{background-position: -420px -440px;}
 .famfam-text_columns {background-position: -440px -440px;}
 .famfam-text_dropcaps {background-position: -460px -440px;}
 .famfam-text_heading_1 {background-position: -480px -440px;}
@@ -943,8 +943,8 @@
 .famfam-textfield_delete {background-position: -300px -460px;}
 .famfam-textfield_key {background-position: -320px -460px;}
 .famfam-textfield_rename {background-position: -340px -460px;}
-.famfam-thumb_down, .wiipod-dislike {background-position: -360px -460px;}
-.famfam-thumb_up, .wiipod-like {background-position: -380px -460px;}
+.famfam-thumb_down, .balance-dislike {background-position: -360px -460px;}
+.famfam-thumb_up, .balance-like {background-position: -380px -460px;}
 .famfam-tick {background-position: -400px -460px;}
 .famfam-time {background-position: -420px -460px;}
 .famfam-time_add {background-position: -440px -460px;}

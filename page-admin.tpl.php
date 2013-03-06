@@ -22,10 +22,10 @@ $grid = array(
 	<body class="<?php print $body_classes; ?>">
 		<div id="page">
 			<div id="pageInner">
-					<?php if (!empty($wiipod_bar)): ?>
-					<div id="wiipod-bar">
-						<div id="wiipod-bar-inner">
-							<?php print $wiipod_bar; ?>
+					<?php if (!empty($balance_bar)): ?>
+					<div id="balance-bar">
+						<div id="balance-bar-inner">
+							<?php print $balance_bar; ?>
 						</div>
 					</div>
 					<?php endif; ?>
@@ -93,9 +93,9 @@ $grid = array(
 									<?php endif; ?>
 									<?php if(isset($node)): ?>
 										<?php if(in_array($node->type, array('project', 'focusgroup'))): ?>
-											<?php print wiipod_og_add_blog_link($node); ?>
+											<?php print balance_og_add_blog_link($node); ?>
 										<?php endif; ?>
-										<?php print wiipod_edit_link($node); ?>
+										<?php print balance_edit_link($node); ?>
 									<?php endif; ?>
 									<?php print $content; ?>
 								</div><!-- /content-content -->
@@ -110,7 +110,7 @@ $grid = array(
 							<?php endif; ?>
 
 						<?php if (isset($parent) && $node->type == 'project'): ?>
-							<?php print wiipod_parent_focusgroup($node, $parent); ?>
+							<?php print balance_parent_focusgroup($node, $parent); ?>
 						<?php endif; ?>
 
 						<?php if (isset($authors)): ?>

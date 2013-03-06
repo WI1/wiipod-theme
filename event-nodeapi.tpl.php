@@ -22,7 +22,7 @@
 ?>
 <?php if ($node->event['start'] || $node->event['end']): ?>
 <div class="event-nodeapi">
-  <?php print wiipod_timeframe($start_date, $end_date); ?>
+  <?php print balance_timeframe($start_date, $end_date); ?>
 <?php if (variable_get('configurable_timezones', 1)):
  $zone = event_zonelist_by_id($node->event['timezone']); ?>
  <div class="event-nodeapi">

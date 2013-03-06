@@ -1,5 +1,5 @@
 ; $Id:$
-name = wiipod
+name = balance 
 description = A BALANCEd theme for wiipod
 core = 6.x
 engine = phptemplate

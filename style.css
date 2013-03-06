@@ -28,18 +28,18 @@ a.menu-edit {
 /***** BALANCE BAR  ******/
 /*************************/
 
-#wiipod-bar {
+#balance-bar {
 height: 26px;
 margin-bottom: 32px;
 background: #666;
 }
 
-#wiipod-bar .notice {
+#balance-bar .notice {
 font-weight: bold;
 margin-left: 0.4em;
 }
 
-#wiipod-bar-inner {
+#balance-bar-inner {
 position: relative;
 margin: 0 auto;
 width: 960px;
@@ -833,7 +833,7 @@ font-size: 11px;
 float: right;
 }
 
-#wiipod-node-edit, #wiipod-user-edit {
+#balance-node-edit, #balance-user-edit {
 float: right; 
 background-color: #eee; 
 position: relative; 
@@ -842,7 +842,7 @@ right: -1.4em;
 padding: 0.2em 0.6em 0.2em 0.4em;
 }
 
-#wiipod-node-edit a, #wiipod-user-edit a {
+#balance-node-edit a, #balance-user-edit a {
 margin-left:2px;
 vertical-align:super;
 }
@@ -1081,7 +1081,7 @@ background-color: #6EAA0A  !important;
         width: 118px;
         background-position: -441px 0;
 }
-.sponsoren #wiipod {
+.sponsoren #balance {
         width: 146px;
         background-position: -628px 0;
 }
@@ -1263,16 +1263,16 @@ padding: 0;
 
 /*** Wiki ***/
 
-body.node-type-wiipodwiki div.links.wiki {
+body.node-type-balancewiki div.links.wiki {
 position:relative !important;
 top:-150px;
 }
 
-body.node-type-wiipodwiki div.links.wiki .talk_add {
+body.node-type-balancewiki div.links.wiki .talk_add {
 display: none;
 }
 
-body.node-type-wiipodwiki div.links.wiki a.flag-link-toggle {
+body.node-type-balancewiki div.links.wiki a.flag-link-toggle {
 font-size:13px;
 font-weight:bold;
 }
@@ -1459,7 +1459,7 @@ margin-bottom: 0 !important;
 }
 
 body.node-1802 .messages,
-body.node-1802 #wiipod-node-edit,
+body.node-1802 #balance-node-edit,
 body.node-1802 .tabs {
 display: none;
 }
@@ -1546,7 +1546,7 @@ float: left;
 .node-type-dokuwiki .node-form .tips {
 display: none;
 } 
-ï¿½
+´
  .node-type-dokuwiki .node-form ul.vertical-tabs-list, 
 .node-type-dokuwiki .node-form div.vertical-tabs-panes {
  display: none;

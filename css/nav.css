@@ -7,12 +7,12 @@ Navigation
 /******* Personal Menu *************************/
 /***********************************************/
 
-#wiipod-bar ul.menu, #wiipod-bar ul.menu {
+#balance-bar ul.menu, #balance-bar ul.menu {
 list-style: none !important;
 
 }
 
-#wiipod-bar  #block-user-1 {
+#balance-bar  #block-user-1 {
 height: 23px;
 width: 587px;
 float: left;
@@ -21,18 +21,18 @@ padding-top: 3px;
 overflow: hidden; /* grows large for admins */
 }
 
-#wiipod-bar  #block-user-1:hover {
+#balance-bar  #block-user-1:hover {
 	overflow: visible;
 }
 
-#wiipod-bar li.leaf, #wiipod-bar li.expanded, #wiipod-bar li.collapsed {
+#balance-bar li.leaf, #balance-bar li.expanded, #balance-bar li.collapsed {
 list-style: none !important;
 margin-left: -10px !important;
 margin-right: 30px;
 float: left;
 }
 
-#wiipod-bar a {
+#balance-bar a {
 color: #fff;
 }
 
@@ -40,7 +40,7 @@ color: #fff;
 /****** Focusgroups / Projects *****/
 /**********************************/
 #block-menu-menu-fgtop,
-#wiipod-bar .nice-menu {
+#balance-bar .nice-menu {
 display: block;
 height: 26px;
 float: left;
@@ -48,7 +48,7 @@ margin-right: 30px !important;
 }
 
 #block-menu-menu-fgtop li ,
-#wiipod-bar .nice-menu li {
+#balance-bar .nice-menu li {
 	display: block;
 	float: left;
 	background-color: transparent;
@@ -60,7 +60,7 @@ margin-right: 30px !important;
 }
 
 #block-menu-menu-fgtop li a,
-#wiipod-bar .nice-menu li a {
+#balance-bar .nice-menu li a {
 	display: block;
 	height: 20px;
 	/*text-indent: -9000px;*/
@@ -70,14 +70,14 @@ z-index: 20;
 
 
 
-	#wiipod-bar .nice-menu li a:hover
+	#balance-bar .nice-menu li a:hover
 		{
 border: 1px solid #fff;
 border-bottom: #fff !important;
 	}
 
-#block-menu-menu-fgtop li a.wiipod {
- 	background: url(/sites/wiipodonline.org/themes/wiipod/img/wiipod_header.png) no-repeat 4px 3px;
+#block-menu-menu-fgtop li a.balance {
+ 	background: url(/sites/balanceonline.org/themes/balance/img/balance_header.png) no-repeat 4px 3px;
 	text-indent: -999em;
 	width: 120px !important;
 	}
@@ -86,7 +86,7 @@ border-bottom: #fff !important;
 margin-top: 3px;
 }
 
-#wiipod-bar .nice-menu li ul {
+#balance-bar .nice-menu li ul {
 	border: 1px solid #666;
 	background-color: white;
 	padding: 0.5em;
@@ -96,13 +96,13 @@ margin-top: 3px;
 
 
 
-#wiipod-bar .nice-menu li ul li a {
+#balance-bar .nice-menu li ul li a {
 	text-indent: 0;
 	color: #666 !important;
 	width: 150px;
 	}
 
-	#wiipod-bar .nice-menu li ul li:first-child a {
+	#balance-bar .nice-menu li ul li:first-child a {
 	 font-weight: bold;
 	 text-decoration: none;
 	 display: block;
@@ -219,7 +219,7 @@ ul#nice-menu-1 li li a:hover {
 	color: #666;
 	}
 
-ul#nice-menu-1 a#menu-wiipod {
+ul#nice-menu-1 a#menu-balance {
 background-position: -146px 0;
 }
 
@@ -244,7 +244,7 @@ ul#nice-menu-1 a#menu-home:hover {
 background-position:  0 -35px;
 }
 
-ul#nice-menu-1 a#menu-wiipod:hover {
+ul#nice-menu-1 a#menu-balance:hover {
 background-position: -146px -35px;
 }
 
@@ -268,7 +268,7 @@ ul#nice-menu-1 a#menu-home:focus {
 background-position: 0px -105px;
 }
 
-ul#nice-menu-1 a#menu-wiipod:focus{
+ul#nice-menu-1 a#menu-balance:focus{
 background-position: -146px -105px;
 }
 

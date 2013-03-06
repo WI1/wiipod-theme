@@ -1,5 +1,5 @@
 <?php if(user_edit_access($account)): ?>
-<div id="wiipod-user-edit"><span class="famfam active wiipod-node-edit"></span><?php print l(t('Edit'), 'user/' . $account->uid . '/edit') ?></div>
+<div id="balance-user-edit"><span class="famfam active balance-node-edit"></span><?php print l(t('Edit'), 'user/' . $account->uid . '/edit') ?></div>
 <?php endif; ?>
 
 <div class="vcard card">
