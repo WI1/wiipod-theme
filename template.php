@@ -64,10 +64,10 @@ function wiipod_edit_link($node) {
 
 	if(arg(2) != 'edit') {
 		if(node_access('update', $node)) {
-			$output = '<div id="balance-node-edit"><span class="famfam active balance-node-edit"></span>' . l(t('Edit'), 'node/' . $node->nid . '/edit') . '</div>';
+			$output = '<div id="wiipod-node-edit"><span class="famfam active wiipod-node-edit"></span>' . l(t('Edit'), 'node/' . $node->nid . '/edit') . '</div>';
 		}
 	} else {
-		$output = '<span id="balance-node-edit-back">' . l('Zurück', 'node/' . $node->nid) . '</span>';
+		$output = '<span id="wiipod-node-edit-back">' . l('Zurück', 'node/' . $node->nid) . '</span>';
 	}
 
 	return $output;
@@ -319,7 +319,7 @@ function wiipod_og_add_blog_link($node) {
 	if(($subscription == 'active' && module_invoke('blog', 'access', 'create', 'blog', $user)) || user_access('administer nodes')) {
 		$links = module_invoke_all('og_create_links', $node);
 		if($links['create_blog']) {
-			return '<span class="famfam active balance-node-add"></span><span id="balance-add-node">' . $links['create_blog'] . '</span>';
+			return '<span class="famfam active wiipod-node-add"></span><span id="wiipod-add-node">' . $links['create_blog'] . '</span>';
 		}
 	}
 }
@@ -421,7 +421,7 @@ function wiipod_upload_form_new(&$form) {
 }
 
 function phptemplate_preprocess_flag(&$vars) {
-  //$vars['link_text'] = '<span class="famfam active balance-like></span>';
+  //$vars['link_text'] = '<span class="famfam active wiipod-like></span>';
 }
 
 function pn_node($node, $mode = 'n') {

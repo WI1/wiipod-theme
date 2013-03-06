@@ -22,10 +22,10 @@ $grid = array(
 	<body class="<?php print $body_classes; ?>">
 		<div id="page">
 			<div id="pageInner">
-					<?php if (!empty($balance_bar)): ?>
-					<div id="balance-bar">
-						<div id="balance-bar-inner">
-							<?php print $balance_bar; ?>
+					<?php if (!empty($wiipod_bar)): ?>
+					<div id="wiipod-bar">
+						<div id="wiipod-bar-inner">
+							<?php print $wiipod_bar; ?>
 						</div>
 					</div>
 					<?php endif; ?>

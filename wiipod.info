@@ -4,7 +4,7 @@ description = A BALANCEd theme for wiipod
 core = 6.x
 engine = phptemplate
 
-regions[balance_bar] = Balance Bar
+regions[wiipod_bar] = Balance Bar
 regions[content_top] = Content top
 regions[left] = Left sidebar
 regions[announcement]  = Announcement
