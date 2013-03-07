@@ -6,7 +6,7 @@ function balance_node_more_link($node) {
 
 function balance_addthis_button() {
 	return '<div class="addthis_button_div">
-		<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=stoeckit"><img src="/themes/wiipod/img/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/></a>
+		<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=stoeckit"><img src="/sites/all/themes/wiipod/img/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/></a>
 	</div>';
 }
 
