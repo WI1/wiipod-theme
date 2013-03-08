@@ -57,13 +57,13 @@ $grid = array(
 					<div id="sidebar-left" class="column sidebar grid_<?php print$grid['left']?>">
 						<div id="logo-title">
 							<div class="logo-title">
-							<?php if($fg): // page with fg context ?>
-								<?php print l('<img src="' . $base_path . 'sites/all/themes/balance/img/badges_gross/fokusgruppe_' . $fg->field_fgnumber_value . '.png" />', 'node/' . $fg->nid, array('html' => TRUE)) ?>
-							<?php else: ?>
+							<?php// if($fg): // page with fg context ?>
+								<?php// print l('<img src="' . $base_path . 'sites/all/themes/balance/img/badges_gross/fokusgruppe_' . $fg->field_fgnumber_value . '.png" />', 'node/' . $fg->nid, array('html' => TRUE)) ?>
+							<?php// else: ?>
 							<a id="logo" href="<?php print $front_page; ?>" rel="home" title="<?php print t('Home'); ?>">
 								<img alt="<?php print t('Home'); ?>" src="<?php print $logo; ?>" />
 							</a>
-							<?php endif; ?>
+							<?php// endif; ?>
 							</div>
 						</div>
 						<?php print $left; ?>
