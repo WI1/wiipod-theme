@@ -1172,7 +1172,7 @@ padding: 5px;
 background-color: #efefef;
 }
 
-.fg a img {
+#content .view .fg a img {
 float: right;
 margin: 0 0 5px 5px;
 }
@@ -1546,7 +1546,7 @@ float: left;
 .node-type-dokuwiki .node-form .tips {
 display: none;
 } 
-´
+ï¿½
  .node-type-dokuwiki .node-form ul.vertical-tabs-list, 
 .node-type-dokuwiki .node-form div.vertical-tabs-panes {
  display: none;
