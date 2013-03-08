@@ -118,7 +118,7 @@ $grid = array(
 						<div id="sidebar-right" class="column sidebar grid_<?php print $grid['right']?>">
 							<?php if(isset($node->field_projectlogo) && ($projectlogo = $node->field_projectlogo[0])): ?>
 								<div class="logo-title">
-									<?php print l(theme('imagecache', 'pic_2c_square', $projectlogo['filepath']), 'node/' . $node->nid, array('html' => TRUE)) ?>
+									<?php print l(theme('imagecache', 'projectlogo_1-2c', $projectlogo['filepath']), 'node/' . $node->nid, array('html' => TRUE)) ?>
 								</div>
 							<?php endif; ?>
 
